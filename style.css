@@ -1,0 +1,172 @@
+/* General Styles */
+body /* Social Sharing Section */
+.social-share h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.social-btn {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-btn i {
+    margin-right: 0.5rem;
+}
+
+.social-btn.facebook {
+    background-color: #3b5998;
+}
+
+.social-btn.facebook:hover {
+    background-color: #334d84;
+}
+
+.social-btn.twitter {
+    background-color: #1da1f2;
+}
+
+.social-btn.twitter:hover {
+    background-color: #1991e6;
+}
+
+.social-btn.whatsapp {
+    background-color: #25d366;
+}
+
+.social-btn.whatsapp:hover {
+    background-color: #20b958;
+}
+
+.social-btn.linkedin {
+    background-color: #0077b5;
+}
+
+.social-btn.linkedin:hover {
+    background-color: #005e93;
+}
+
+
+    {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.poem {
+    background: linear-gradient(135deg, #f9f9f9, #f2f2f2);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.poem p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #333;
+    margin: 0 0 1.5rem;
+}
+
+.poem strong {
+    display: block;
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 1.5rem;
+}
+
+/* Button Styles */
+.btn {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-primary {
+    border-color: #0d6efd;
+    color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.btn-outline-secondary {
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+body.dark-mode .poem {
+    background: linear-gradient(135deg, #1e1e1e, #2b2b2b);
+    color: #f1f1f1;
+}
+
+body.dark-mode h1 {
+    color: #0dcaf0;
+}
+
+body.dark-mode .btn-outline-primary {
+    border-color: #0dcaf0;
+    color: #0dcaf0;
+}
+
+body.dark-mode .btn-outline-primary:hover {
+    background-color: #0dcaf0;
+    color: #121212;
+}
+
+body.dark-mode .btn-outline-secondary {
+    border-color: #adb5bd;
+    color: #adb5bd;
+}
+
+body.dark-mode .btn-outline-secondary:hover {
+    background-color: #adb5bd;
+    color: #121212;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .poem p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
